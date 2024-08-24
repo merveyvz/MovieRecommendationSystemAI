@@ -25,7 +25,7 @@ This Movie Recommendation System is a web application built with Python and Stre
 
 1. Clone the repository:
    ``` bash
-   git clone https://github.com/merveyvz/MovieRecommendationSystem.git
+   git clone https://github.com/merveyvz/MovieRecommendationSystemByAI.git
 
    ```
 2. Install the required packages:
