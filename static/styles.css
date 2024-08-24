@@ -1,0 +1,85 @@
+/* Custom styles for the Movie Recommendation System */
+
+.main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Times New Roman", "Times", "serif";
+}
+
+.centered-title {
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #FFFFFF;
+}
+
+h1, h2, h3 {
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.stButton > button {
+    background-color: #2563EB;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+}
+
+.stButton > button:disabled {
+    color: #FFFFFF;
+}
+
+.stTextInput > div > div > input {
+    border-radius: 0.25rem;
+    border: 1px solid #D1D5DB;
+    padding: 0.5rem;
+}
+
+.stMultiSelect > div {
+    border-radius: 0.25rem;
+    border: 1px solid #D1D5DB;
+}
+
+.stInfo {
+    background-color: #DBEAFE;
+    color: #1E40AF;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.stWarning {
+    background-color: #FEF3C7;
+    color: #92400E;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Styles for movie cards */
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1;
+    margin-right: 5rem;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
